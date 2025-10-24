@@ -1,0 +1,15 @@
+#Custom recipes
+#Follow the correct layout. Copy and paste the example and change the required items
+DIAMOND_PICKAXE:
+  allowed: true
+  ingredients:
+    - DIAMOND
+    - DIAMOND
+    - DIAMOND
+    - AIR
+    - STICK
+    - AIR
+    - AIR
+    - STICK
+    - AIR
+  result: 3

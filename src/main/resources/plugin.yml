@@ -1,0 +1,14 @@
+name: GuardianUncraft
+main: com.guardianuncraft.GuardianUncraft
+version: 0.1.0-SNAPSHOT
+api-version: "1.21"
+author: GuardianTheOG
+description: Guardian Uncraft - Phase 1
+commands:
+  uncraft:
+    description: Open the Uncraft GUI
+    usage: /uncraft
+    permission: guardianuncraft.use
+permissions:
+  guardianuncraft.use:
+    default: true

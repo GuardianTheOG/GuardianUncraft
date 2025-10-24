@@ -1,0 +1,18 @@
+# Guardian Uncraft - main config
+
+#chat messages prefix
+prefix: "<gray><bold>[<gold>Uncraft</aqua>]</gray> "
+
+#GUI Title
+gui-title: "<gold><bold>Uncrafting Table"
+
+#to be completed. Currently only gives back ALL items.
+chance: 100
+
+#This option enables shift + Right-Click on the crafting table to open the Uncrafting menu
+enable-rightclick: true
+
+#This option should not be changed as shift-clicking items into the uncraft GUI
+#results in items getting stuck in the recipe slots
+#Items will be lost if GUI is closed with items in the recipe slot.
+prevent-shift-click: true
