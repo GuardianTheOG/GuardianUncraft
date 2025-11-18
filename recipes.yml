@@ -1,0 +1,175 @@
+#Custom recipes
+#Follow the correct layout. Copy and paste the example and change the required items
+DIAMOND_PICKAXE:
+  allowed: true
+  ingredients:
+    - DIAMOND
+    - DIAMOND
+    - DIAMOND
+    - AIR
+    - STICK
+    - AIR
+    - AIR
+    - STICK
+    - AIR
+  result: 3
+LIGHT_GRAY_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - _DYE
+  result: 1
+GRAY_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - GRAY_DYE
+  result: 1
+BLACK_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - BLACK_DYE
+  result: 1
+BROWN_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - BROWN_DYE
+  result: 1
+RED_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - RED_DYE
+  result: 1
+ORANGE_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - ORANGE_DYE
+  result: 1
+YELLOW_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - YELLOW_DYE
+  result: 1
+LIME_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - LIME_DYE
+  result: 1
+GREEN_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - GREEN_DYE
+  result: 1
+CYAN_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - CYAN_DYE
+  result: 1
+LIGHT_BLUE_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - LIGHT_BLUE_DYE
+  result: 1
+BLUE_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - BLUE_DYE
+  result: 1
+PURPLE_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - PURPLE_DYE
+  result: 1
+MAGENTA_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - MAGENTA_DYE
+  result: 1
+PINK_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - PINK_DYE
+  result: 1
+WHITE_WOOL:
+  allowed: true
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+    - WHITE_DYE
+  result: 1
+CAKE:
+  allowed: false
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+  result: 1
+HONEY_BLOCK:
+  allowed: false
+  ingredients:
+    - STRING
+    - STRING
+    - STRING
+    - STRING
+  result: 1
