@@ -86,16 +86,22 @@ public class RecipeHandler {
         int inputCount = input.getAmount();
 
         if (recipe instanceof ShapedRecipe shaped) {
-            for (ItemStack item : shaped.getIngredientMap().values()) {
-                if (item != null && item.getType() != Material.AIR) {
-                    ItemStack clone = item.clone();
-                    // ✅ FIX: scale ingredient amount by ratio
-                    clone.setAmount(clone.getAmount() * (inputCount / resultCount));
-                    result.add(clone);
+            Map<Character, RecipeChoice> choiceMap = shaped.getChoiceMap();
+            for (RecipeChoice choice : choiceMap.values()) {
+                if (choice != null) {
+                    ItemStack item = choiceToItem(choice);
+                    if (item != null && item.getType() != Material.AIR) {
+                        ItemStack clone = item.clone();
+                        // ✅ FIX: scale ingredient amount by ratio
+                        clone.setAmount(clone.getAmount() * (inputCount / resultCount));
+                        result.add(clone);
+                    }
                 }
             }
         } else if (recipe instanceof ShapelessRecipe shapeless) {
-            for (ItemStack item : shapeless.getIngredientList()) {
+            List<RecipeChoice> choices = shapeless.getChoiceList();
+            for (RecipeChoice choice : choices) {
+                ItemStack item = choiceToItem(choice);
                 if (item != null && item.getType() != Material.AIR) {
                     ItemStack clone = item.clone();
                     clone.setAmount(clone.getAmount() * (inputCount / resultCount));
